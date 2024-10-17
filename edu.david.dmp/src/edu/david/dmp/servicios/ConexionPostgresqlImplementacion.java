@@ -9,9 +9,9 @@ public class ConexionPostgresqlImplementacion implements ConexionPostgresqlInter
 	@Override
 	public Connection generaConexion() {
 	    // Definir los parámetros de la conexión
-	    String url = "jdbc:postgresql://localhost:5432/proyectoBd";
-	    String usuario = "postgres";
-	    String contraseña = "Altair006";
+	    String url = "jdbc:databaseName://localhost:port/proyectName";
+	    String usuario = "user";
+	    String contraseña = "password";
 
 	    Connection conexion = null;
 
