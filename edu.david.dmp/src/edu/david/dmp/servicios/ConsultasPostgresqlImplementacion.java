@@ -371,6 +371,7 @@ public class ConsultasPostgresqlImplementacion implements ConsultasPostgresqlInt
                     System.out.println("El club con ID " + id + " fue eliminado exitosamente de la base de datos.");
                     
                     // Elimina el club de la lista
+		    //La función comprueba si el ID del club es igual al valor de id que se pasó al método o contexto donde se está utilizando esta línea.
                     listaClubs.removeIf(club -> club.getId_club() == id);
                 } else {
                     System.out.println("No se encontró el club con ID " + id + ".");
